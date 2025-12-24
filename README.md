@@ -10,7 +10,7 @@ O projeto foi dividido em duas etapas principais:
 1.  **Geração de Dados Fictícios:** Criação de uma base de dados realista simulando um cenário de telecomunicações/assinaturas.
 2.  **Modelagem Preditiva:** Criação de um notebook de regressão logística para o cenário de *Churn*.
 
-### 🔍 Estrutura dos Dados (`base_churn_ficticia.csv`)
+### 🔍 Estrutura dos Dados (`base_churn.csv`)
 A base gerada contém 2000 registros com as seguintes colunas:
 * `ID_Contrato` / `ID_Usuario`: Identificadores únicos.
 * `Tipo_Plano`: Básico, Padrão, Premium, etc.
@@ -28,6 +28,7 @@ A base gerada contém 2000 registros com as seguintes colunas:
     * `LogisticRegressionCV`: Modelo linear com validação cruzada (Lasso).
     * `Pipeline` & `ColumnTransformer`: Pré-processamento robusto.
     * Métricas: Acurácia, AUC-ROC, Matriz de Confusão.
+* **Matplotlib & Seaborn:** Visualização de dados e gráficos de performance.
 
 ## 🚀 Como Executar
 
